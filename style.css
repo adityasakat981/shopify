@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.top-media{
+    display: flex;
+    padding: 1px;
+    margin: 0px;
+background-color: black;
+}
+.media-item{
+    font-size: 25px;
+    padding: 15px;
+    
+display: flex;
+}
+
+.navbar-text{
+    color: white;
+    text-align: center;
+    margin-left: 180px;
+}
+#threebtn{
+    background-color: black;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.searchbtn{
+   
+    margin-right: 1400px;
+    font-size: 25px;
+}
+#topimg{
+    
+    width: 30px;
+    height: 70px;
+    margin-top: -40px;
+    border-radius: 0%;
+    margin-left: 650px;
+}
+
+#sli{
+        width: 100%;
+        height: auto;
+    }
+    .slideshow-container {
+  
+        margin-top: 10px;
+        padding: 0px;
+        margin: 0;
+      position: relative;
+      
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-bottom{
+    background-color: black;
+}
+
+#bottom-logo{
+    
+    margin: 20px 150px;
+    margin-bottom: -220px;
+
+}
+.info label{
+    margin-top: 20px;
+    margin-left: 500px;
+    
+  
+
+}
+.info-details{
+    margin: 10px;
+}
+.info-details a{
+position: relative;
+margin: 500px;
+
+    color: white;
+}
+.info-details2{
+    margin:10px;
+margin-top:-20px
+
+}
+.info-details2 a{
+    margin:900px;
+    margin-top: 200px;
+
+
+}
+
+@media only screen and (max-width:400px){
+    
+    *{
+        
+        margin: 0;
+        padding: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .top-media{
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+    background-color: black;
+    }
+    .media-item{
+        margin-top: 2px;
+        font-size: 9px;
+        margin-left: 1px;
+        padding: 4px;
+        
+    display: flex;
+    }
+    
+    .navbar-text{
+        color: white;
+        margin-top: -5px;
+        text-align: center;
+        margin-left: 35px;
+        font-size: 5px;
+    }
+    .navbar {
+    
+        background-color: red;
+    }
+
+    .searchbtn{
+        margin-top: -20px;
+        margin-left: 40px;
+        font-size: 15px;
+    }
+    #threebtn{
+        background-color: black;
+        margin-left: -10px;
+        font-size: 8px;
+    }
+    img{
+        width: 40px;
+        height: 40px;
+        margin-top:  -30px;
+        margin-left: 150px;
+    }
+    
+}
